@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Graphics2D::GraphicsProvider2D::DrawImage(Graphics2D::G2DImage*, Graphics2D::Rectangle, Graphics2D::Vector2, Graphics2D::Transform*):Graphics2D.cp">
+         <PersistentStrings>
+            <PersistentString
+               value = "destVerts[0][0]">
+            </PersistentString>
+            <PersistentString
+               value = "&lt;xformedVerts[4]&gt;">
+            </PersistentString>
+            <PersistentString
+               value = "&lt;xformedVerts...&gt;">
+            </PersistentString>
+            <PersistentString
+               value = "*(Graphics2D::Vector2(*)[4])xformedVerts">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

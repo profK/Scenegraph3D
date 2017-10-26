@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CB837CA1A0E7A57005BBC78 /* Scenegraph3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB837C91A0E7A57005BBC78 /* Scenegraph3D.h */; };
+		9CB837CC1A0E7A57005BBC78 /* Scenegraph3DPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB837CB1A0E7A57005BBC78 /* Scenegraph3DPriv.h */; };
+		9CB837CE1A0E7A57005BBC78 /* Scenegraph3D.cp in Sources */ = {isa = PBXBuildFile; fileRef = 9CB837CD1A0E7A57005BBC78 /* Scenegraph3D.cp */; };
+		9CB837DB1A0E7D3F005BBC78 /* Graphics3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB837DA1A0E7D3F005BBC78 /* Graphics3D.h */; };
+		9CB837DD1A0E845A005BBC78 /* libGraphics2D.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB837DC1A0E845A005BBC78 /* libGraphics2D.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CB837C61A0E7A57005BBC78 /* libScenegraph3D.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libScenegraph3D.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB837C91A0E7A57005BBC78 /* Scenegraph3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scenegraph3D.h; sourceTree = "<group>"; };
+		9CB837CB1A0E7A57005BBC78 /* Scenegraph3DPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scenegraph3DPriv.h; sourceTree = "<group>"; };
+		9CB837CD1A0E7A57005BBC78 /* Scenegraph3D.cp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Scenegraph3D.cp; sourceTree = "<group>"; };
+		9CB837DA1A0E7D3F005BBC78 /* Graphics3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Graphics3D.h; path = ../../Graphics2D/Graphics3D.h; sourceTree = "<group>"; };
+		9CB837DC1A0E845A005BBC78 /* libGraphics2D.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGraphics2D.dylib; path = "../../../../../Library/Developer/Xcode/DerivedData/Graphics2D-bkxztlojmwkpsmdqpzpmhussiwke/Build/Products/Debug/libGraphics2D.dylib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CB837C31A0E7A57005BBC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB837DD1A0E845A005BBC78 /* libGraphics2D.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CB837BD1A0E7A57005BBC78 = {
+			isa = PBXGroup;
+			children = (
+				9CB837DC1A0E845A005BBC78 /* libGraphics2D.dylib */,
+				9CB837C81A0E7A57005BBC78 /* Scenegraph3D */,
+				9CB837C71A0E7A57005BBC78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CB837C71A0E7A57005BBC78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CB837C61A0E7A57005BBC78 /* libScenegraph3D.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CB837C81A0E7A57005BBC78 /* Scenegraph3D */ = {
+			isa = PBXGroup;
+			children = (
+				9CB837DA1A0E7D3F005BBC78 /* Graphics3D.h */,
+				9CB837C91A0E7A57005BBC78 /* Scenegraph3D.h */,
+				9CB837CB1A0E7A57005BBC78 /* Scenegraph3DPriv.h */,
+				9CB837CD1A0E7A57005BBC78 /* Scenegraph3D.cp */,
+			);
+			path = Scenegraph3D;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9CB837C41A0E7A57005BBC78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB837DB1A0E7D3F005BBC78 /* Graphics3D.h in Headers */,
+				9CB837CC1A0E7A57005BBC78 /* Scenegraph3DPriv.h in Headers */,
+				9CB837CA1A0E7A57005BBC78 /* Scenegraph3D.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9CB837C51A0E7A57005BBC78 /* Scenegraph3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB837D11A0E7A57005BBC78 /* Build configuration list for PBXNativeTarget "Scenegraph3D" */;
+			buildPhases = (
+				9CB837C21A0E7A57005BBC78 /* Sources */,
+				9CB837C31A0E7A57005BBC78 /* Frameworks */,
+				9CB837C41A0E7A57005BBC78 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scenegraph3D;
+			productName = Scenegraph3D;
+			productReference = 9CB837C61A0E7A57005BBC78 /* libScenegraph3D.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CB837BE1A0E7A57005BBC78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jeffrey Kesselman";
+				TargetAttributes = {
+					9CB837C51A0E7A57005BBC78 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 9CB837C11A0E7A57005BBC78 /* Build configuration list for PBXProject "Scenegraph3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CB837BD1A0E7A57005BBC78;
+			productRefGroup = 9CB837C71A0E7A57005BBC78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CB837C51A0E7A57005BBC78 /* Scenegraph3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CB837C21A0E7A57005BBC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB837CE1A0E7A57005BBC78 /* Scenegraph3D.cp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9CB837CF1A0E7A57005BBC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9CB837D01A0E7A57005BBC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9CB837D21A0E7A57005BBC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Graphics2D-bkxztlojmwkpsmdqpzpmhussiwke/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CB837D31A0E7A57005BBC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Graphics2D-bkxztlojmwkpsmdqpzpmhussiwke/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CB837C11A0E7A57005BBC78 /* Build configuration list for PBXProject "Scenegraph3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB837CF1A0E7A57005BBC78 /* Debug */,
+				9CB837D01A0E7A57005BBC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB837D11A0E7A57005BBC78 /* Build configuration list for PBXNativeTarget "Scenegraph3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB837D21A0E7A57005BBC78 /* Debug */,
+				9CB837D31A0E7A57005BBC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CB837BE1A0E7A57005BBC78 /* Project object */;
+}
